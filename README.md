@@ -18,18 +18,21 @@ An AI-powered resume reviewer built with React and Groq API that gives you insta
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js installed
 - Groq API key (get one at [console.groq.com](https://console.groq.com))
 
 ### Installation
 
 1. Clone the repo
+
 ```bash
    git clone https://github.com/YOUR_USERNAME/ai-resume-reviewer.git
    cd ai-resume-reviewer
 ```
 
 2. Install dependencies
+
 ```bash
    npm install
 ```
@@ -37,6 +40,7 @@ An AI-powered resume reviewer built with React and Groq API that gives you insta
 3. Create a `.env` file in the root directory and add your Groq API key
 
 4. Start the development server
+
 ```bash
    npm run dev
 ```
@@ -45,13 +49,13 @@ An AI-powered resume reviewer built with React and Groq API that gives you insta
 
 ## 🔑 Environment Variables
 
-| Variable | Description |
-|----------|-------------|
+| Variable            | Description       |
+| ------------------- | ----------------- |
 | `VITE_GROQ_API_KEY` | Your Groq API key |
 
 ## 📸 Screenshots
 
-*(Add screenshots of your app here)*
+_(Add screenshots of your app here)_
 
 ## 🌐 Live Demo
 
@@ -59,4 +63,4 @@ An AI-powered resume reviewer built with React and Groq API that gives you insta
 
 ## 📬 Contact
 
-Made with ❤️ by Jigyansa Jena(https://github.com/jigyansajena)
+# Made with ❤️ by Jigyansa Jena(https://github.com/jigyansajena)

@@ -1,16 +1,62 @@
-# React + Vite
+# 🧠 AI Resume Reviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered resume reviewer built with React and Groq API that gives you instant, detailed feedback on your resume — either by pasting your resume text or uploading a file.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📝 **Paste Resume Text** — Paste your resume content directly and get AI feedback instantly
+- 📂 **Upload Resume File** — Upload your resume as a PDF or DOCX and let the AI review it
+- ⚡ **Powered by Groq LLM** — Super fast AI responses using Groq's inference API
+- 🎨 **Clean UI** — Built with React for a smooth and intuitive experience
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend** — React.js
+- **AI / LLM** — Groq API
+- **Deployment** — Vercel
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js installed
+- Groq API key (get one at [console.groq.com](https://console.groq.com))
+
+### Installation
+
+1. Clone the repo
+```bash
+   git clone https://github.com/YOUR_USERNAME/ai-resume-reviewer.git
+   cd ai-resume-reviewer
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the root directory and add your Groq API key
+
+4. Start the development server
+```bash
+   npm run dev
+```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 🔑 Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `VITE_GROQ_API_KEY` | Your Groq API key |
+
+## 📸 Screenshots
+
+*(Add screenshots of your app here)*
+
+## 🌐 Live Demo
+
+[View Live Demo](https://YOUR_PROJECT.vercel.app)
+
+## 📬 Contact
+
+Made with ❤️ by Jigyansa Jena(https://github.com/jigyansajena)

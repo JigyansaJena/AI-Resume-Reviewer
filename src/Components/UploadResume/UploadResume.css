@@ -1,0 +1,61 @@
+.uploadResume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 2rem;
+}
+
+.upload {
+  border: 1px dashed #6c63ff;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.upload h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 30px 60px;
+  border: 1px dashed #6c63ff44;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.file-label p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.file-label span {
+  color: #888888;
+  font-size: 13px;
+}
+
+.file-label:hover {
+  background: #1a1a2e;
+  border-color: #6c63ff;
+}
+
+.upload button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin: 10px 0;
+}

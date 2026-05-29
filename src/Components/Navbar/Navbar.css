@@ -1,0 +1,60 @@
+.navbar-div {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  background: #6c63ff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.heading span {
+  color: #6c63ff;
+}
+
+.nav-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.nav-right p {
+  color: #888888;
+  font-size: 14px;
+}
+
+.nav-right button {
+  border: 1px solid #888888;
+  background: transparent;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-right button:hover {
+  background: rgb(141, 135, 135, 0.3); 
+  cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.hero {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-top {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.hero-top .text-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #1a1a2e;
+  border: 1px solid #6c63ff44;
+  color: #a29bfe;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+}
+
+.hero-top h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.hero-top h1 span {
+  color: #6c63ff;
+}
+
+.hero-top h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #888888;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.hero-top .btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 10px 0 30px 0;
+}
+
+.btns button {
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #888888;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+hr {
+  background-color: #888888;
+}
+
+.hero-bottom {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-bottom div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-bottom div .text-btm {
+  font-size: 14px;
+  color: #888888;
+}
+
+.hero-bottom div .text {
+  color: #6c63ff;
+  font-size: 25px;
+  font-weight: 600;
+}

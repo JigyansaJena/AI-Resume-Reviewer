@@ -59,7 +59,7 @@ _(Add screenshots of your app here)_
 
 ## 🌐 Live Demo
 
-[View Live Demo](https://YOUR_PROJECT.vercel.app)
+[View Live Demo]https://ai-resume-reviewer-us7z.vercel.app/
 
 ## 📬 Contact
 

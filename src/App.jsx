@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import './index.css'
-import PasteResume from './Components/pasteResume/PasteResume';
+import PasteResume from './Components/PasteResume/PasteResume';
 import UploadResume from './Components/UploadResume/UploadResume';
 
 function App() {
